@@ -1,12 +1,12 @@
 {
-  "name": "arbitrum_one/blocks",
+  "name": "mantle/blocks",
   "license": "MIT",
   "scripts": {
     "0xcodegen": "rm -rf generated && 0xgraph codegen -o generated",
     "0xbuild": "0xgraph build",
-    "0xcreate": "0xgraph create arbitrum_one/blocks --node <HTTP://GRAPH_NODE_HOST:PORT> --access-token <API_KEY>",
-    "0xdeploy": "0xgraph deploy arbitrum_one/blocks --node <HTTP://GRAPH_NODE_HOST:PORT> --ipfs <HTTP://IPFS_HOST:PORT>",
-    "0xremove": "0xgraph remove arbitrum_one/blocks --access-token <API_KEY>"
+    "0xcreate": "0xgraph create mantle/blocks --node <HTTP://GRAPH_NODE_HOST:PORT> --access-token <API_KEY>",
+    "0xdeploy": "0xgraph deploy mantle/blocks --node <HTTP://GRAPH_NODE_HOST:PORT> --ipfs <HTTP://IPFS_HOST:PORT>",
+    "0xremove": "0xgraph remove mantle/blocks --access-token <API_KEY>"
   },
   "dependencies": {
     "@0xgraph/cli": <CLI_EXACT_VERSION>,

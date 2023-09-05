@@ -1,11 +1,11 @@
 specVersion: 0.0.5
-description: Subgraph that tracks Arbitrum one blocks
+description: Subgraph that tracks Mantle blocks
 schema:
   file: schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: ArbitrumOneBlocks
-    network: arbitrum_one
+    name: MantleBlocks
+    network: mantle
     source:
       address: "0x0000000000000000000000000000000000000000"
       abi: IERC20
